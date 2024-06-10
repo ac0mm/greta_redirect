@@ -55,8 +55,6 @@ Note: Use sudo where necessary
     greta_redirect.py version 0.5 [-h] [-i] [-l HOST] [-p PORT] [-r REDIRECT_TYPE] [-t PROTO_TYPE] [--direction DIRECTION] [--tun_listen_port TUN_LISTEN_PORT] [--target_port TARGET_PORT] [--target_ip TARGET_IP] [-u UPFILE] [-d DOWNFILE] [-f FILE_DEST] [-o OSTYPE] [-b CALLBACK] [-c CERTFILE]
                                      [-k KEYFILE]
 
-  Open source file and traffic redirection for the red teamer on the go written by ac0mm, Andrew Morrow for cycle 4 of CSC842
-
   options:
   
     -h, --help            show this help message and exit
