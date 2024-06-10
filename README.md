@@ -111,3 +111,4 @@ As a stepping stone to integrating with the C2 framework I am building, greta, I
 - UDP downloads that work
 - Windows pastable commands for file transfer and redirecting
 - openssl upload and download lines
+- call in from greta_redirect to targets for file transfers or redirects
