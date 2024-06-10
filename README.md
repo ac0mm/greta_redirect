@@ -6,7 +6,7 @@ Greta_redirect is a program that assists with uploading, downloading, and redire
 
 Greta is targeted to help penetration testers upload and download files from a target and redirect through a target.
 
-Demo: <link>
+Demo: https://www.youtube.com/watch?v=9wKXX9HtyRU
 
 ## Table of Contents
 
