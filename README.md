@@ -50,28 +50,25 @@ Note: Use sudo where necessary
 
   python3 greta_server.py -h
 
-  ******************************************************************************************************************************
-  * _______  _______  _______ _________ _______         _______  _______  ______  _________ _______  _______  _______ _________*
-  *(  ____ \(  ____ )(  ____ \__   __/(  ___  )       (  ____ )(  ____ \(  __  \ \__   __/(  ____ )(  ____ \(  ____ \__   __/*
-  *| (    \/| (    )|| (    \/   ) (   | (   ) |       | (    )|| (    \/| (  \  )   ) (   | (    )|| (    \/| (    \/   ) (   *
-  *| |      | (____)|| (__       | |   | (___) |       | (____)|| (__    | |   ) |   | |   | (____)|| (__    | |         | |   *
-  *| | ____ |     __)|  __)      | |   |  ___  |       |     __)|  __)   | |   | |   | |   |     __)|  __)   | |         | |   *
-  *| | \_  )| (\ (   | (         | |   | (   ) |       | (\ (   | (      | |   ) |   | |   | (\ (   | (      | |         | |   *
-  *| (___) || ) \ \__| (____/\   | |   | )   ( |       | ) \ \__| (____/\| (__/  )___) (___| ) \ \__| (____/\| (____/\   | |   *
-  *(_______)|/   \__/(_______/   )_(   |/     \| _____ |/   \__/(_______/(______/ \_______/|/   \__/(_______/(_______/   )_(   *
-  *                                             (_____)                                                                        *
-  ******************************************************************************************************************************
-  usage: greta_redirect.py version 0.5 [-h] [-i] [-l HOST] [-p PORT] [-r REDIRECT_TYPE] [-t PROTO_TYPE] [--direction DIRECTION] [--tun_listen_port TUN_LISTEN_PORT] [--target_port TARGET_PORT] [--target_ip TARGET_IP] [-u UPFILE] [-d DOWNFILE] [-f FILE_DEST] [-o OSTYPE] [-b CALLBACK] [-c CERTFILE]
+  usage: 
+  
+    greta_redirect.py version 0.5 [-h] [-i] [-l HOST] [-p PORT] [-r REDIRECT_TYPE] [-t PROTO_TYPE] [--direction DIRECTION] [--tun_listen_port TUN_LISTEN_PORT] [--target_port TARGET_PORT] [--target_ip TARGET_IP] [-u UPFILE] [-d DOWNFILE] [-f FILE_DEST] [-o OSTYPE] [-b CALLBACK] [-c CERTFILE]
                                      [-k KEYFILE]
 
   Open source file and traffic redirection for the red teamer on the go written by ac0mm, Andrew Morrow for cycle 4 of CSC842
 
   options:
+  
     -h, --help            show this help message and exit
+    
     -i, --interactive     This option walks through an interactive menu to set values and will ignore any other options
+    
     -l HOST, --host HOST  Set host for listener to bind to
+    
     -p PORT, --port PORT  Set port for listner to bind to
+    
     -r REDIRECT_TYPE, --redirect_type REDIRECT_TYPE
+    
                           Pick the redirection type you want: upload download tunnel
     -t PROTO_TYPE, --proto_type PROTO_TYPE
                           Pick the protocol type: upload: tcp udp tls https http Download: tcp udp tls redirect: tcp udp
